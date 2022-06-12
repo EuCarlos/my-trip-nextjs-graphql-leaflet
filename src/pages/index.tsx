@@ -1,6 +1,5 @@
 import Image from '../../node_modules/next/image'
 import Head from '../../node_modules/next/head'
-//import styles from '../../../styles/Home.module.css'
 import styles from '../../styles/Home.module.css'
 
 type Props = {
