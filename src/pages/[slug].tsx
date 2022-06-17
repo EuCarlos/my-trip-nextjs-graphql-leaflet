@@ -5,11 +5,13 @@ import { GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import PageTemplate, { PageTemplateProps } from "templates/Pages";
 
-export default function Page ({ heading, body }: PageTemplateProps) {
+export default function Page({ heading, body }: PageTemplateProps) {
   const router = useRouter()
 
   // retorna um loading, ou qualquer coisa enquanto tá sendo criado
-  if (router.isFallback) return null
+  if (router.isFallback) {
+    return null
+  }
 
   return <PageTemplate heading={heading} body={body} />
 }
