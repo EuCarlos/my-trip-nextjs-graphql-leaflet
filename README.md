@@ -1,5 +1,7 @@
 # My Trip
 
+🌐 _Para a versão em português deste README, [clique aqui](./docs/locales/pt_BR/README.md)._
+
 ## Main goal:
 Create an application to show the pinned places you've visited or want to go on a map.
 ## How to run the project?
