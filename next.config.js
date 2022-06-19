@@ -9,7 +9,8 @@ module.exports = {
   images: {
     domains: [
       'media.graphcms.com',
-      'media.graphassets.com'
+      'media.graphassets.com',
+      '*.graphcms.com'
     ]
   }
 }
